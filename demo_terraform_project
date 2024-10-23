@@ -12,7 +12,7 @@ provider "aws" {
   region = " "                                    
 }
 
-resoure "aws_instance" "app_server" {
+resoure "aws_instance" "app_server" {                            // no need from this line but if you find resource then can add this lines
   ami           = "ami-02af70169146bbdd3"
   instance_type = "t3.micro"
 
